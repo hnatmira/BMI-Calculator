@@ -105,6 +105,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="calculatePressed:" destination="0qR-sb-Rgn" eventType="touchUpInside" id="9dY-TB-v1k"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -122,6 +125,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gAq-7T-nz6"/>
                     </view>
+                    <connections>
+                        <outlet property="heightValueLabel" destination="YjF-6e-Fd7" id="5ed-DG-csq"/>
+                        <outlet property="heightValueSlider" destination="NGp-HM-smL" id="qnX-jR-wfk"/>
+                        <outlet property="weightValueLabel" destination="GIT-xw-rcc" id="ldZ-Gc-qvm"/>
+                        <outlet property="weightValueSlider" destination="ohF-BB-uOb" id="rRF-ww-5is"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ac1-YL-t1N" sceneMemberID="firstResponder"/>
             </objects>
